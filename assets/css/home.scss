@@ -1,0 +1,41 @@
+@import url("./body.css");
+
+$max-with : 100%;
+$half : 50%;
+
+
+.div-home-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: $half;
+}
+.div-sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.div-sobre-desc {
+    text-align: center;
+    width: $half;
+}
+
+.orcamento-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: $max-with;
+}
+
+.div-home{
+    display: flex;
+    justify-content: center;
+    width: $max-with;
+
+    flex-wrap: wrap;
+}
+

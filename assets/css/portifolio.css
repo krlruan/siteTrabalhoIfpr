@@ -1,0 +1,37 @@
+@import url("./body.css");
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card:hover {
+  cursor: pointer;
+  height: 100%;
+  color: grey;
+}
+
+.albums {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.img-album {
+  width: 800px;
+}
+
+.img-album img {
+  width: 100%;
+}
+
+.content-body {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=portifolio.css.map */

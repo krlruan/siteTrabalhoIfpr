@@ -1,0 +1,45 @@
+@import url('./body.css');
+
+
+$max-with : 100%;
+
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    padding: 10px;
+}
+.card img{
+    width: $max-with ;
+}
+
+
+.card:hover{
+    cursor: pointer;
+    height: $max-with;
+    color: grey;
+}
+
+.albums{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.img-album{
+    width: 800px;
+}
+
+
+
+.img-album img{
+    width: $max-with ;
+}
+
+.content-body{
+    display: flex;
+    justify-content: center;
+}

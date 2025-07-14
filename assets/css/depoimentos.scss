@@ -1,0 +1,28 @@
+@import url('./body.css');
+@import url("./home.css");
+
+
+$max-with : 100%;
+$half : 50%;
+$mg-top : 30px;
+
+.depoimento-img {
+    display: flex;
+    justify-content: center;
+
+}
+
+.depoimento-img img{
+    width: $half ;
+}
+
+.video{
+    display: flex;
+    width: $max-with;
+    justify-content: center;
+}
+
+.video iframe {
+    margin-top: $mg-top;
+}
+

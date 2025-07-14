@@ -1,0 +1,36 @@
+@import url("./body.css");
+.div-home-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+}
+
+.div-sobre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.div-sobre-desc {
+  text-align: center;
+  width: 50%;
+}
+
+.orcamento-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.div-home {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=home.css.map */

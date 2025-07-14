@@ -1,0 +1,20 @@
+@import url("./body.css");
+@import url("./home.css");
+.depoimento-img {
+  display: flex;
+  justify-content: center;
+}
+
+.depoimento-img img {
+  width: 50%;
+}
+
+.video {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.video iframe {
+  margin-top: 30px;
+}/*# sourceMappingURL=depoimentos.css.map */

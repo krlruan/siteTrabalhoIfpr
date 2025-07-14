@@ -1,0 +1,55 @@
+@import url('./body.css');
+@import url('./home.css');
+
+$max-with : 100%;
+
+.img-album-foto {
+    width: $max-with;
+}
+
+
+.album-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.img-album-foto img {
+    width: $max-with;
+}
+
+.img-album {
+    width: 800px;
+}
+
+.img-album img {
+    width: $max-with;
+}
+
+.div-home-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50%;
+}
+
+.div-home {
+    display: flex;
+    justify-content: center;
+    width: $max-with;
+}
+
+
+
+
+
+.perguntas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px;
+}
+
+.questao {
+    text-align: start;
+}
